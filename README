@@ -1,0 +1,5 @@
+This repo contains a number of scripts and puppet modules that can be used to tie cobbler and puppet together
+
+At the moment, the main script is system_setup.rb.  This file reads in the KSMETA data from Cobbler and enables you to add arbitrary keypairs as Facts to all your systems simply by updating the "system" in Cobbler.
+
+I will also be publishing my MySQL modules here which will eventually include a replication-provider that requires specific facts (which you can set via system_setup.rb!).
